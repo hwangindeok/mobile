@@ -1,0 +1,36 @@
+<html> 
+    <script language="javascript">  
+        function changeFace(aaa) { 
+            document.getElementById("face").src="face_angry.png"; 
+            
+            /**
+            alert(aaa);
+            if (confirm("승인 하시겠습니까?")){
+            	alert(aaa);
+            }else{
+            	alert("bbb");
+            }
+            */
+            document.getElementById("string").innerHTML=aaa; 
+        } 
+    </script> 
+<body> 
+
+    <a onClick="auth.setUserInfo('idhwang43@naver.com','12345678');">
+        <div style="width:120px; 
+            margin:0px auto; 
+            padding:10px; 
+            text-align:center; 
+            border:2px solid #202020;" 
+            > 
+        <img id="face" src="face_normal.png"/>
+        
+        <br>  
+    </div>
+    
+    </a>
+    <div id="string">aaaa</div> 
+    <input type="file" name="file" size=30>
+ </body> 
+ </html>
+ 
